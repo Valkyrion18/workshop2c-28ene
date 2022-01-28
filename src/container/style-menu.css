@@ -1,0 +1,89 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  margin-top: 5px;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1{
+  color: white;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+h3{
+  color: white;
+  text-align: center;
+  margin-bottom: 30px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.categorias{
+  display: flex;
+  flex-direction: column;
+}
+
+.boton-categoria{
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.imagen-boton{
+  width: 100px;
+  height: 100px;
+}
+
+.container-footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 8px;
+
+  position: static;
+  width: 96%;
+  height: fit-content;
+  left: 0px;
+  bottom: 0px;
+  border-radius: 10px;
+
+  /* Neutral */
+
+  background: #232E35;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 3;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 14px 10px;
+}
+
+.elemento-footer{
+  display: flex;
+  flex-direction: column;
+}
+
+.imagen-footer{
+  width: 50px;
+  height: 50px;
+}
+
+h5{
+  color:white;
+  text-align: center;
+  font-size: 18px;
+  margin-top: -5px;
+}
+
+.home {
+  color: #2CB67D;
+}
